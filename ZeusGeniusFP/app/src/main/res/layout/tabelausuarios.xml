@@ -1,0 +1,183 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ID Usuário Pesquisa :"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/EditText_ID_Usuario"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:text="1       "/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ID Auto Incremento:  "
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/EditText_IDUsuarioIncluir"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:enabled="false"/>
+
+
+        </TableRow>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome do Usuário"
+            android:textColor="#ffff25f4" />
+
+        <EditText
+            android:id="@+id/EditText_USU_NomeUsuario"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Senha do Usuário"
+            android:textColor="#ffff25f4" />
+
+        <EditText
+            android:id="@+id/EditText_USU_SenhaUsuario"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome Completo Usuário"
+            android:textColor="#ffff25f4" />
+
+        <EditText
+            android:id="@+id/EditText_USU_NomeCompletoUsuario"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Inclusão Usuário"
+            android:textColor="#ffff25f4" />
+
+        <EditText
+            android:id="@+id/EditText_USU_DataInclusao"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="Máscara DD/MM/AAAA"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Validade Usuário"
+            android:textColor="#ffff25f4" />
+
+        <EditText
+            android:id="@+id/EditText_USU_DataValidade"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="Máscara DD/MM/AAAA"/>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btnaddTAB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INCLUIR"
+                android:drawableLeft="@drawable/add"
+                android:onClick="btnaddTAB" />
+
+            <Button
+                android:id="@+id/btndelTAB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DELETAR"
+                android:drawableLeft="@drawable/cancel"
+                android:onClick="btndelTAB" />
+
+
+            <Button
+                android:id="@+id/btnalterarTAB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALTERAR"
+                android:drawableLeft="@drawable/image_edit"
+                android:onClick="Botaoalt" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/btnbuscarcontatoTAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar Tabela ID"
+            android:drawableLeft="@drawable/magnifier"
+            android:onClick="btnbuscarcontatoTAB" />
+
+        <Button
+            android:id="@+id/btnlistacontatosTAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista Tabela Tela"
+            android:drawableLeft="@drawable/zoom"
+            android:onClick="btnlistacontatosTAB" />
+
+        <Button
+            android:id="@+id/limparcamposTAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limpar Todos Usuários"
+            android:drawableLeft="@drawable/comments_delete"
+            android:onClick="limparcampostab" />
+
+        <Button
+            android:id="@+id/btnlistalike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACHA Usuário Pela Descrição"
+            android:drawableLeft="@drawable/book"
+            android:onClick="btnlistalike" />
+
+        <Button
+            android:id="@+id/BTNultimoID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto Incremento"
+            android:drawableLeft="@drawable/server_add"
+            android:onClick="BTNultimoID" />
+
+
+
+    </TableLayout>
+
+
+</ScrollView>
+

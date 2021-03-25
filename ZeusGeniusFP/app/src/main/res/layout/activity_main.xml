@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:layout_centerVertical="true"
+    android:background="@drawable/analista"
+    android:layout_alignParentRight="true">
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Menu Principal"
+                android:drawableLeft="@drawable/mundo"
+                android:textColor="#ffff25f4" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/BotaoMenuContratados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cadastro de Contratados"
+                android:drawableLeft="@drawable/medico"
+                android:textColor="@android:color/holo_red_dark"
+                android:onClick="BotaoMenuContratados" />
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/BotaoMenuTabelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tabelas Legislação"
+                android:drawableLeft="@drawable/legislacao"
+                android:onClick="BotaoMenuTabelas" />
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/BotaoMenuUsuarios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cadastro de Usuários"
+                android:drawableLeft="@drawable/elegante"
+                android:onClick="BotaoMenuUsuarios" />
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/BotaoMenuCargos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cadastro de Cargos"
+                android:drawableLeft="@drawable/informatica"
+                android:onClick="BotaoMenuCargos" />
+        </TableRow>
+
+
+        <TableRow>
+        <EditText
+            android:id="@+id/NumTelefone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/telephone"
+            android:textColor="#FF0000"
+            android:inputType="numberDecimal"
+            android:text="999999999" />
+        </TableRow>
+
+
+        <TableRow>
+            <EditText
+                android:id="@+id/EnderecoSite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/html_add"
+                android:textColor="#FF3030"
+                android:text="http://uol.com.br" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</ScrollView>
+
+
+
+
+

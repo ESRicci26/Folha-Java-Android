@@ -1,0 +1,1640 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true">
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ID Auto Incremento:  "
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_ID_ContratadoIncluir"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:enabled="false"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="IDContratado:"
+                android:padding="1dp"
+                android:textColor="#ff329dff" />
+
+            <EditText
+                android:id="@+id/XML_ID_Contratado"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="1"/>
+        </TableRow>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:padding="1dp"
+            android:textColor="#ff329dff" />
+
+        <EditText
+            android:id="@+id/XML_CON_DssNome"
+            android:layout_width="fill_parent"
+            android:padding="1dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="CPF"
+                android:padding="1dp"
+                android:textColor="#ff329dff" />
+
+            <EditText
+                android:id="@+id/XML_CON_CPF"
+                android:layout_width="fill_parent"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Admissão"
+                android:padding="1dp"
+                android:textColor="#ff329dff" />
+
+            <EditText
+                android:id="@+id/XML_CON_DtdAdmissao"
+                android:layout_width="fill_parent"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="R.G:"
+                android:padding="1dp"
+                android:textColor="#ff329dff" />
+
+            <EditText
+                android:id="@+id/XML_CON_RGNumero"
+                android:layout_width="fill_parent"
+                android:padding="1dp"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dt Emissão R.G:"
+                android:padding="1dp"
+                android:textColor="#ff329dff" />
+
+            <EditText
+                android:id="@+id/XML_CON_RGDtdEmissao"
+                android:layout_width="fill_parent"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="O.Emissor R.G"
+                android:padding="1dp"
+                android:textColor="#ff329dff" />
+
+            <EditText
+                android:id="@+id/XML_CON_RGOrgaoEmissor"
+                android:layout_width="fill_parent"
+                android:padding="1dp"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PIS:"
+                android:padding="1dp"
+                android:textColor="#ff329dff" />
+
+            <EditText
+                android:id="@+id/XML_CON_PISNumero"
+                android:layout_width="fill_parent"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Endereço Residencial:"
+            android:padding="1dp"
+            android:textColor="#ff329dff" />
+
+        <EditText
+            android:id="@+id/XML_CON_EnderecoResidencial"
+            android:layout_width="fill_parent"
+            android:padding="1dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail:"
+            android:padding="1dp"
+            android:textColor="#ff329dff" />
+
+        <EditText
+            android:id="@+id/XML_CON_Email"
+            android:layout_width="fill_parent"
+            android:padding="1dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Cargo ID:"
+                android:padding="1dp"
+                android:textColor="#ff329dff" />
+
+            <EditText
+                android:id="@+id/XML_CON_IDCargo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="000"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="C.Custo ID"
+                android:padding="1dp"
+                android:textColor="#ff329dff" />
+
+            <EditText
+                android:id="@+id/XML_CON_IDCCusto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="000"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="E.Civil ID"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_IDEstadosCivis"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="000"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Instrução ID"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_IDGrauInstrucao"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="000"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sexo ID"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_IDSexo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="000"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Horario ID"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_IDHorario"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:inputType="numberDecimal"
+                android:text="000"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Qtd Dep.IRRF"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_QtdDepIRRF"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="1,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Qtd Dep.SF"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_QtdDepSF"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="1,00"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Horas Bs Mês"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_HorasBaseMes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="200,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Salário Mês"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_SalarioContratual"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="77977,97"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Salário Hora"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_SalarioHora"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Salário Dia"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_SalarioDia"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dias Trabalhados"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_DiasTrabalhados"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="30,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Horas Trabalhadas"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_HorasTrabalhadas"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Salário Pagar"
+                android:padding="1dp"
+                android:textColor="#0000ff" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERSalMesHora"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#0000ff"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Vencimento 1 T.Inc"
+                android:padding="1dp"
+                android:textColor="#0000ff" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERVL01TodasINC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:textColor="#0000ff"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Vencimento 2 T.Inc"
+                android:padding="1dp"
+                android:textColor="#0000ff" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERVL02TodasINC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:textColor="#0000ff"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Vencimento 3 S.Inc"
+                android:padding="1dp"
+                android:textColor="#0000ff" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERVL03SemINC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:textColor="#0000ff"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Vencimento 4 S.Inc"
+                android:padding="1dp"
+                android:textColor="#0000ff" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERVL04SemINC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:textColor="#0000ff"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Hora Extra %"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_PERCHoraExtra1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="1,60"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Hora Extra Qtd"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_QTDHoraExtra1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="H.E Valor Pagar"
+                android:padding="1dp"
+                android:textColor="#0000ff" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERHoraExtra1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#0000ff"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Adic.Noturno %"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_PERCAdicNoturno1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,20"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Adic.Not.Qtd Hrs"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_QTDHoraAdicNotu1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Adic.Not.Vl Pagar"
+                android:padding="1dp"
+                android:textColor="#0000ff" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERAdicNoturno1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#0000ff"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="DSR Dias Úteis"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_QTDDiasDSRUteis"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="26,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="DSR Dias Inúteis"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_QTDDiasDSRInuteis"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="5,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="DSR Vl Pagar"
+                android:padding="1dp"
+                android:textColor="#0000ff" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERValorDSR"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#0000ff"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Faltas Qtd Dias"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_QtdDiasFalta"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Faltas Vl Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERValorFalta"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Atrasos Qtd Hrs"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_QtdHorasAtraso"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Atrasos Vl Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERValorAtraso"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Base INSS"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/INSSBaseCalculo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="INSS Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/INSSValDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Base IRRF"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/IRRFBaseCalculo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="IRRF Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/IRRFValDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bs Cálc.SF"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/BaseCalcSalFam"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="S.F a Pagar"
+                android:padding="1dp"
+                android:textColor="#0000ff" />
+
+            <EditText
+                android:id="@+id/SalFamPagar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:textColor="#0000ff"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="% PGBL"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_PERCPGBL"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PGBL Vl Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERPGBL"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="% VGBL"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_PERCVGBL"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="VGBL Vl Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERVGBL"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pensão Alim. Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERPensaoDesconto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pensão Alim. Ded.IRRF"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERPensaoDedIRRF"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="% Adto Quinz."
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_PERCAdtoQuinz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,40"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Adto Quinzenal Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERVlAdtoQuinz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="C.Sind.Dias"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_CSindDias"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="C.Sindical Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_CSindValor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="C.Assist.%"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_CAPERC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="C.Assist.Vl Fixo"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_CAVlFixo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="C.Assist.Vl Teto"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_CAVlTeto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="C.Assist.Vl Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_CAVlDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="% Desc. V.T"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_PERCDescVT"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Vl Créd.VT"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_VlCredVT"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="V.Transporte Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERVLDescVT"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="% Desc. VR"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_PERCDescVR"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Vl Créd.VR"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_VLCredVR"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="V.Refeição Desc"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VERVlDescVR"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Qtd Vidas A.M"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_QtdVidasAssMed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Vl Vida A.M"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_VlPVidasAssMed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Vl Desconto A.M"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VlDescAssMed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Qtd Vidas A.O"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_QtdVidasAssOdo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Valor A.O"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_VlPVidasAssOdo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Vl Desconto A.O"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VlDescAssOdo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:text="0,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc 01 SI"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VlDesc01SI"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc 02 SI"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_VlDesc02SI"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="% FGTS"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_PercFGTS"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="0.08"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Base FGTS"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_BaseFGTS"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Depósito FGTS"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_DepositoFGTS"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Encargos ID"
+                android:padding="1dp"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/XML_CON_IDEncargo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:padding="1dp"
+                android:text="000"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Vencimentos"
+                android:padding="1dp"
+                android:textColor="#0000ff" />
+
+            <EditText
+                android:id="@+id/XML_CON_TotalVencimentos"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#0000ff"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Descontos"
+                android:padding="1dp"
+                android:textColor="#FF0000" />
+
+            <EditText
+                android:id="@+id/XML_CON_TotalDescontos"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#FF0000"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Líquido"
+                android:padding="1dp"
+                android:textColor="#006400" />
+
+            <EditText
+                android:id="@+id/XML_CON_TotalLiquido"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0,00"
+                android:textColor="#006400"
+                android:padding="1dp"
+                android:inputType="numberDecimal|numberSigned"/>
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/BotaoCON_Adicionar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Incluir"
+                android:drawableLeft="@drawable/add"/>
+
+            <Button
+                android:id="@+id/BotaoCON_Deletar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deletar"
+                android:drawableLeft="@drawable/cancel"/>
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/BotaoCON_Alterar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alterar/Salvar"
+                android:drawableLeft="@drawable/image_edit"/>
+
+            <Button
+                android:id="@+id/BotaoCON_Buscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Consultar"
+                android:drawableLeft="@drawable/magnifier"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/BotaoCalculoAutomatico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cálculo Automático"
+                android:drawableLeft="@drawable/calculator"/>
+
+            <Button
+                android:id="@+id/btnCONultimoID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auto Incremento"
+                android:drawableLeft="@drawable/server_add"/>
+
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/BotaoCON_Lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista Cadastro Tela"
+            android:drawableLeft="@drawable/zoom"/>
+
+        <Button
+            android:id="@+id/BotaoCON_LimparCampos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limpar Todos Campos"
+            android:drawableLeft="@drawable/comments_delete"/>
+
+        <Button
+            android:id="@+id/BotaoCONListaLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Busca Nome Pela DESCRIÇÃO"
+            android:drawableLeft="@drawable/book"/>
+
+        <Button
+            android:id="@+id/BotaoSalvarTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar e Compartilhar"
+            android:enabled="false"
+            android:drawableLeft="@drawable/compartilhar"/>
+
+        <Button
+            android:id="@+id/BotaoSalvarDownloads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar B.D Local"
+            android:drawableLeft="@drawable/logoexcelnew"/>
+
+
+    </TableLayout>
+
+</ScrollView>
+

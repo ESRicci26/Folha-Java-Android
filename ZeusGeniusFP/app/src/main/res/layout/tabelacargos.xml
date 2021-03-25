@@ -1,0 +1,158 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableRow>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ID CARGO :"
+                android:textColor="#ffff25f4" />
+
+            <EditText
+                android:id="@+id/ID_Cargo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:text="1       "/>
+        </TableRow>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição Resumida do Cargo"
+            android:textColor="#ffff25f4" />
+
+        <EditText
+            android:id="@+id/CAR_D1sCargoRes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição Completa do Cargo"
+            android:textColor="#ffff25f4" />
+
+        <EditText
+            android:id="@+id/CAR_DescritivoCargo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ID CBO Tabela Cargos"
+            android:textColor="#ffff25f4" />
+
+        <EditText
+            android:id="@+id/CAR_IDCBO"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Código CBO Tabela CBOCodBraOcupa"
+            android:textColor="#ffff25f4" />
+
+        <EditText
+            android:id="@+id/CBO_CodOficialCBO"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/EditText_IDCargoIncluir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="AutoIncremento"
+            android:inputType="numberDecimal"
+            android:enabled="false"/>
+
+
+        <TableRow>
+        <Button
+            android:id="@+id/btnaddTAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INCLUIR"
+            android:drawableLeft="@drawable/add"
+            android:onClick="btnaddTAB" />
+
+        <Button
+            android:id="@+id/btndelTAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETAR"
+            android:drawableLeft="@drawable/cancel"
+            android:onClick="btndelTAB" />
+
+        <Button
+            android:id="@+id/btnalterarTAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALTERAR"
+            android:drawableLeft="@drawable/image_edit"
+            android:onClick="Botaoalt" />
+        </TableRow>
+
+
+
+        <Button
+            android:id="@+id/btnbuscarcontatoTAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONSULTA ID"
+            android:drawableLeft="@drawable/magnifier"
+            android:onClick="btnbuscarcontatoTAB" />
+
+        <Button
+            android:id="@+id/btnlistacontatosTAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LISTA TABELA TELA"
+            android:drawableLeft="@drawable/zoom"
+            android:onClick="btnlistacontatosTAB" />
+
+
+
+        <Button
+            android:id="@+id/limparcamposTAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIMPAR TODOS CAMPOS"
+            android:drawableLeft="@drawable/comments_delete"
+            android:onClick="limparcampostab" />
+
+        <Button
+            android:id="@+id/btnlistalike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACHA CARGO PELA DESCRIÇÃO"
+            android:drawableLeft="@drawable/book"
+            android:onClick="btnlistalike" />
+
+        <Button
+            android:id="@+id/BTNultimoIDCargo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto Incremento"
+            android:drawableLeft="@drawable/server_add"
+            android:onClick="BTNultimoIDCargo" />
+
+
+    </TableLayout>
+
+
+</ScrollView>
+
